@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    width: 100%;
+    height: 90vh;
+    background: url("images/shaheenshaheen.svg");
+}
+.container-fluid{
+    height: 100%;
+    
+}
+.row{
+    height: 60%;
+}
+.head{
+    margin: 20px;
+    margin-top: 30px;
+    background: url("images/topbanner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:92px;
+    border-radius: 15px;
+}
+.card{
+    /* width: 310px;
+    height: 200px; */
+    border-radius: 5px;
+}
+.details{
+    position: absolute;
+    
+    color:white ;
+    background-color: rgb(177, 0, 97);
+   opacity: 0%;
+   width: 100%;
+   min-height: 200px;
+   max-height: max-content;
+}
+.details p{
+    margin: 20px;
+}
+.details button{
+    
+    padding: 5px;
+    background-color: white;
+    color:rgb(177, 0, 97) ;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.card:hover .details{
+    
+    transition: all 0.6s;
+  opacity: 100%;
+  cursor: pointer;
+}
+.card1{
+    width: 330px;
+    height: 200px;
+    background: url("images/cr1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.card2{
+    background: url("images/cr2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 230px;
+    height: 200px;
+}
+.card3{
+    background: url("images/sr3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 330px;
+    height: 200px;
+  
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+@media (max-width: 992px){
+  
+
+
+    /* .row{
+     display: flex;
+     flex-direction: column;
+     align-items: center; */
+    
+    
+    .card{
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+  
+}
+@media (max-width:769px){
+    section{
+        height: auto;
+    }
+}
